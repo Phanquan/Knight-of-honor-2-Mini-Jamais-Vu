@@ -1,1 +1,58 @@
-# Knight-of-honor-2-Mini-Jamais-Vu
+### ATTENTION ###
+I'm not the author of this mod, Igles007 is, I just help him publishing this mod to steamworkshop with his approvement.
+Original link and full description of the mod can be found here:
+https://www.nexusmods.com/knightsofhonor2sovereign/mods/34?tab=description&BH=1
+
+Jamais Vu is a series of modifications to different games.
+The main idea is that after installing the modification, the player gets a completely new game in terms of gameplay, but with an old story line.
+
+This modification has "mini" in the name, not because the number of changes in the game is small.
+At the moment, this is the biggest modification to the game.
+This mod has a "mini" in the name because, against the background of other modifications from the Jamais Vu series, its scale is small.
+
+A detailed description of the modification can be found on the mod page on Nexusmods.
+To do this, follow this link:
+
+https://www.nexusmods.com/knightsofhonor2sovereign/mods/34?tab=description&BH=0
+
+Below is a generalized description of the mod, without a detailed description.
+
+
+Key features of the mod:
+
+1) Changed all the parameters of all units in the game.
+2) All units have their role and place on battlefield. Light type of soldier didnt mean weak soldier.
+3) Very big difference in available tactics for different types of troops in tactic and global maps battles.
+4) Redone the endurance, morality and AI logic of troops.
+5) The new skill system, up to 10 skills, that are balanced for the game.
+6) Bonuses from traditions are changed, as well as the cost of studying.
+7) The Pagan religion are rebalanced and can be well playable now.
+8) Countries receive 40% of resources in cities without a governor.
+9) Bonuses from resources to units are changed.
+
+
+If you're interested in which games the full versions of Jamais vu have been released for,
+without the mini prefix, I'll point them out below.
+
+
+Two full versions of the Jamais Vu modification are made for the following games:
+1) Evil Island: Curse of the lost soul.
+2) King Arthur knights tale.
+
+Here are the links to that modifications:
+1) https://www.nexusmods.com/evilislandscurseofthelostsoul/mods/1/?tab=description&BH=0
+2) https://www.nexusmods.com/kingarthurknightstale/mods/14?tab=description&BH=0
+
+
+I want to say kind words to the people whose work I have been looking through in order to find the values
+I need, to understand how individual things work.
+
+I am grateful for the work of the following authors:
+1. Vaweila for "Aging Knight's" and "No Ungoverned Province Penalty" mods.
+2. 13erserk for "10 Skill Slots and Level 5 skills" mod.
+3. VampiresZombiesLiches for "Extended Royal Family Age and Expanded Family Tree and Better Marriages and Birthrate" mod.
+
+I cannot guarantee compatibility with other modifications.
+It is better to use this global modification in stand alone mode.
+
+
