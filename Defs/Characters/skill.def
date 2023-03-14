@@ -1,0 +1,13 @@
+﻿def Skill
+{
+	text name
+	sprite icon
+	text tooltip
+	
+	int max_rank = 5
+
+	effects { }
+	
+	resources learn_cost = ["500b 100g","500b 100g","500b 100g","500b 100g","500b 100g","500b 100g","500b 100g","500b 100g","500b 100g","500b 100g"]
+	resources upgrade_cost = ["50b 200g","100b 350g","300b 600g","750b 1300g"]
+}

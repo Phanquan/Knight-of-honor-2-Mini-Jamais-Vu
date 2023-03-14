@@ -1,0 +1,129 @@
+extend *,based_on,name,militaryUnitType,cost_Gold,cost_Workers,cost_Food,cost_Levy,cost_Piety,cost_merc_Gold,upkeep_Gold,upkeep_Food,upkeep_merc_Gold,upkeep_merc_Food,size,tier,siege_strength,defense,CTH,CTH_shoot_mod,CTH_cavalry_mod,naval_CTH_perc,chance_to_shock,resilience,trample_chance,attack_interval,shoot_interval,attack_range,salvo_capacity,salvo_def,friendly_fire_mod,move_speed,run_speed_mul,charge_speed_mul,world_speed_mod,stamina_max,defense_against_ranged_mod,CTH_siege_vs_siege,defeat_under_num_units_mul
+Militia,Unit,Peasants,Light Militia Troops,50 Gold,2 Workers,10 Food,null,,450 Gold,,1 Food,1 Gold,,30,1,2,14,10,,,,3,25,,,,1.5,,,,3,1.8,2,0.725,220,0.4,,0.35
+Infantry,Unit,Light Infantry,Light Infantry,400 Gold,1 Workers,20 Food,200 Levy,,1000 Gold,,1 Food,1 Gold,,30,1,6,49,25,,,,8,70,,,,1.25,,,,2.3,1.7,1.9,0.625,200,1,,0.2
+Defense,Unit,Light Pikemen,Light Defense Troops,450 Gold,1 Workers,20 Food,225 Levy,,1250 Gold,,1 Food,2 Gold,,30,1,5,67,21,,2,-20,4,100,,,,1.5,,,,2.1,1.7,1.9,0.59,160,0.8,,0.2
+Cavalry,Unit,Light Cavalry,Light Cavalry,825 Gold,1 Workers,60 Food,280 Levy,,1650 Gold,,3 Food,4 Gold,,30,1,3,35,20,,1.4,-30,17,60,7,,,1.5,,,,8.25,1.8,2,1.03,475,0.6,,0.2
+Noble,Heavy Cavalry,Noblemen Cavalry,Elite Heavy Cavalry,,,,,,,null,null,,,30,2,6,196,27,,1.15,-50,19,120,16,,,1.25,,,,5.3,1.5,1.7,0.825,225,1.3,,0
+Ranged,Unit,Light Archers,Light Ranged Troops,250 Gold,1 Workers,20 Food,150 Levy,,850 Gold,,1 Food,1 Gold,,30,1,5,10,7,3.5,,30,1,10,,,9,1,36,ArrowSalvo,,2.35,1.8,2,0.6,150,0.5,,0.25
+RangedCavalry,Ranged,Ranged Cavalry,Light Ranged Cavalry,1200 Gold,1 Workers,60 Food,350 Levy,,2400 Gold,,3 Food,5 Gold,,30,1,5,18,12,1.6,,20,12,30,2,,10,1.25,24,ArrowSalvo,,9.1,1.8,2,1.1,425,0.6,,0.25
+HeavyInfantry,Infantry,Heavy Infantry,Heavy Infantry,2500 Gold,1 Workers,50 Food,500 Levy,,4000 Gold,,2 Food,6 Gold,,30,1,9,119,29,,,-10,12,130,,,,1.25,,,,1.85,1.5,1.7,0.575,125,1.3,,0.2
+HeavyDefense,Defense,Heavy Pikemen,Heavy Defense Troops,2200 Gold,1 Workers,50 Food,450 Levy,,3600 Gold,,2 Food,5 Gold,,30,1,6,112,25,,2,-35,7,150,,,,1.5,,,,1.6,1.5,1.7,0.5,100,1.4,,0.2
+HeavyCavalry,Cavalry,Heavy Cavalry,Heavy Cavalry,3850 Gold,2 Workers,80 Food,600 Levy,,5500 Gold,,4 Food,8 Gold,,30,1,5,98,26,,1.3,-60,19,80,13,,,1.5,,,,7.25,1.6,1.8,0.875,375,1.2,,0.2
+HeavyRanged,Ranged,Heavy Archers,Heavy Ranged Troops,2000 Gold,1 Workers,40 Food,475 Levy,,3200 Gold,,2 Food,4 Gold,,30,1,11,77,18,1.8,1.15,50,3,80,,,14,1,48,ArrowSalvo,,1.6,1.6,1.8,0.575,100,1,,0.2
+HeavyRangedCavalry,HeavyRanged,Heavy Ranged Cavalry,Heavy Ranged Cavalry,4620 Gold,2 Workers,80 Food,650 Levy,,6950 Gold,,4 Food,9 Gold,,30,1,9,84,22,1.15,1.1,10,15,80,,,15,1.25,24,ArrowSalvo,,7.25,1.7,1.9,0.85,375,0.8,,0.2
+TownGuard,Defense,Town Guards,Light Defense Troops,,,,,,,null,null,,,30,1,7,56,18,,2,,3,80,,,,1.5,,,,2.1,1.7,1.9,0.6,150,0.7,,0.2
+EliteGuard,TownGuard,Senior Town Guards,Heavy Defense Troops,,,,,,,,,,,30,1,8,77,20,,2,,5,110,,,,1.5,,,,1.9,1.5,1.7,0.575,125,0.8,,0.2
+RoyalGuard,EliteGuard,Royal Guards,Elite Heavy Defense Troops,,,,,,,,,,,30,2,9,105,23,,2,,6,160,,,,1.5,,,,1.6,1.5,1.7,0.55,100,1,,0.2
+AdvancedMilitia,Militia,Militia,,150 Gold,2 Workers,10 Food,100 Levy,,700 Gold,,1 Food,1 Gold,,30,1,3,28,25,,,,9,40,,,,1.25,,,,2.8,1.7,1.9,0.675,220,0.6,,0.25
+Viking_Special,Infantry,Vikings,,650 Gold,1 Workers,40 Food,300 Levy,,2000 Gold,,2 Food,4 Gold,,30,1,7,42,39,,,25,17,120,,,,1,,,,2.5,1.7,1.9,0.65,210,0.6,,0.1
+Highlander_Special,Infantry,Highlanders,,350 Gold,1 Workers,30 Food,250 Levy,,1300 Gold,,2 Food,1 Gold,,30,1,6,14,25,,,,10,100,,,,1.25,,,,3,1.8,2,0.75,280,0.3,,0.1
+Saracen_Special,Infantry,Saracen Warriors,,550 Gold,1 Workers,20 Food,300 Levy,,1800 Gold,,1 Food,3 Gold,,30,1,7,39,28,,,,12,40,,,,1.25,,,,2.55,1.7,1.9,0.675,180,0.7,,0.25
+Varangian_Guard_Special,Infantry,Varangian Guards,,1100 Gold,1 Workers,30 Food,350 Levy,,3500 Gold,,2 Food,5 Gold,,30,1,8,77,34,,,-10,15,140,,,,1,,,,2.1,1.6,1.8,0.575,180,1.2,,0.1
+Roman_Infantry_Special,HeavyInfantry,Roman Infantry,Elite Heavy Infantry,4500 Gold,2 Workers,40 Food,600 Levy,,6800 Gold,,2 Food,8 Gold,,30,2,9,155,34,,,-30,14,140,,,,1,,,,1.7,1.5,1.7,0.475,110,1.6,,0.15
+Man_At_Arms_Special,HeavyInfantry,Men at Arms,Elite Heavy Infantry,6000 Gold,3 Workers,50 Food,700 Levy,,8500 Gold,,3 Food,9 Gold,,30,2,8,224,29,,,-40,9,130,,,,1.25,,,,1.5,1.5,1.7,0.425,90,1.9,,0.2
+Teutonic_Knight_Special,HeavyInfantry,Teutonic Knight Infantry,Elite Heavy Infantry,6000 Gold,2 Workers,60 Food,725 Levy,,9000 Gold,,3 Food,10 Gold,,30,2,8,140,42,,,-50,18,200,,,,1.5,,,,1.8,1.5,1.7,0.5,125,1.1,,0.1
+Templar_Knight_Special,HeavyInfantry,Templar Knight Infantry,Elite Heavy Infantry,7500 Gold,4 Workers,70 Food,750 Levy,,10500 Gold,,4 Food,12 Gold,,30,2,10,245,30,,,-40,7,220,,,,1.25,,,,1.45,1.5,1.7,0.425,100,2,,0
+Halberdier_Special,HeavyDefense,Halberdiers,Elite Heavy Defense Troops,6500 Gold,2 Workers,40 Food,750 Levy,,9500 Gold,,2 Food,11 Gold,,30,2,5,140,27,,2.5,-60,5,170,,,,2.5,,,,1.45,1.5,1.7,0.425,80,1.1,,0.1
+Flemish_Pikeman_Special,HeavyDefense,Flemish Pikemen,Elite Heavy Defense Troops,5500 Gold,2 Workers,30 Food,650 Levy,,8000 Gold,,2 Food,8 Gold,,30,2,5,119,24,,2.5,-55,4,140,,,,2.5,,,,1.6,1.5,1.7,0.475,100,0.9,,0.2
+Jenissary_Special,Ranged,Jenissaries,,700 Gold,1 Workers,20 Food,425 Levy,,2500 Gold,,1 Food,5 Gold,,30,1,9,18,23,0.95,0.7,15,7,80,,,10,1.25,16,JennisarySalvo,,2.1,1.8,2,0.575,200,0.7,,0.15
+Crossbowman_Special,Ranged,Crossbowmen,,1750 Gold,1 Workers,20 Food,100 Levy,,3200 Gold,,1 Food,6 Gold,,30,1,9,21,7,6,1.2,10,2,0,,,18,1.25,48,CrossboltSalvo,,1.7,1.8,2,0.5,125,0.6,,0.25
+Longbowman_Special,HeavyRanged,Longbowmen,Elite Heavy Ranged Troops,2500 Gold,1 Workers,30 Food,550 Levy,,5500 Gold,,1 Food,7 Gold,,30,2,13,28,14,2.75,1.3,40,2,50,,,16,1.25,36,LongbowSalvo,,2.1,1.7,1.9,0.55,150,1,,0.15
+Pavise_Crossbowman_Special,HeavyRanged,Pavise Crossbowmen,Elite Heavy Ranged Troops,3500 Gold,2 Workers,40 Food,500 Levy,,6000 Gold,,2 Food,8 Gold,,30,2,15,42,14,4,1.2,5,1,100,,,24,1.25,60,CrossboltSalvo,,1.3,1.5,1.7,0.425,75,3,,0.2
+Horse_Archer_CE,RangedHorseCavalry,Horse Archers,,1260 Gold,1 Workers,60 Food,400 Levy,,2450 Gold,,3 Food,5 Gold,,30,1,5,21,15,1.23,,20,11,30,3,,10,1.25,28,ShortbowSalvo,,9.1,1.8,2,1.05,425,0.6,,0.25
+Horse_Archer_Arab,RangedHorseCavalry,Desert Horse Archers,,1150 Gold,1 Workers,50 Food,425 Levy,,2050 Gold,,2 Food,4 Gold,,30,1,5,18,14,1.45,,25,13,20,2,,10,1.25,26,ShortbowSalvo,,9.1,1.8,2,1.075,450,0.6,,0.3
+Light_Horse_Archer_Steppe,RangedHorseCavalry,Steppe Light Horse Archers,,1050 Gold,1 Workers,40 Food,325 Levy,,1800 Gold,,2 Food,3 Gold,,30,1,5,11,13,2.1,,25,12,20,2,,10,1.25,36,ShortbowSteppeSalvo,,9.25,1.8,2,1.09,475,0.5,,0.35
+Camel_Archer_Special,RangedCavalry,Camel Archers,,900 Gold,2 Workers,50 Food,350 Levy,,1450 Gold,,2 Food,3 Gold,,30,1,5,25,20,0.75,1.5,5,7,50,1,,10,1.25,36,ShortbowSalvo,,5.75,1.8,2,0.825,650,0.8,,0.25
+Mamluk_Special,RangedHorseCavalry,Mamluk Cavalry,Elite Light Ranged Cavalry,9000 Gold,2 Workers,90 Food,800 Levy,,13800 Gold,,4 Food,12 Gold,,30,2,9,84,28,0.75,1.1,15,17,90,13,,10,1.25,24,ShortbowSalvo,,7.5,1.7,1.9,0.9,350,0.7,,0.15
+Mongol_Cavalry_Special,RangedHorseCavalry,Mongol Ranged Cavalry,Elite Light Ranged Cavalry,8400 Gold,2 Workers,80 Food,750 Levy,,11650 Gold,,3 Food,10 Gold,,30,2,9,63,22,1.2,1.1,25,13,60,8,,9,1.25,36,ShortbowMongolSalvo,,7.75,1.7,1.9,0.925,375,0.6,,0.2
+Heavy_Horse_Archer_Steppe,HeavyRangedHorseCavalry,Steppe Heavy Horse Archers,Elite Heavy Ranged Cavalry,10200 Gold,3 Workers,100 Food,850 Levy,,15500 Gold,,5 Food,14 Gold,,30,2,10,98,25,1.25,1.1,35,19,110,15,,14,1.25,24,HeavybowMongolSalvo,,6.9,1.6,1.8,0.85,325,0.9,,0.1
+Hobelar_Special,HorseCavalry,Hobelar Cavalry,,880 Gold,1 Workers,50 Food,300 Levy,,1980 Gold,,3 Food,5 Gold,,30,1,4,40,20,,1.5,-20,17,65,7,,,1.5,,,,8.9,1.8,2,1.175,500,0.7,,0.15
+Camel_Rider_Special,Cavalry,Camel Cavalry,,610 Gold,2 Workers,40 Food,250 Levy,,1000 Gold,,2 Food,2 Gold,,30,1,5,32,19,,1.8,-35,14,90,4,,,1.5,,,,5.25,1.8,2,0.79,675,0.8,,0.25
+Jinetes_Special,HorseCavalry,Jinetes Cavalry,,650 Gold,1 Workers,50 Food,225 Levy,,1210 Gold,,2 Food,3 Gold,,30,1,4,21,28,,1,-5,11,40,5,,,1.25,,,,9.75,1.8,2,1.275,525,0.5,,0.25
+Mongol_Heavy_Lancers_Special,HeavyRangedHorseCavalry,Mongol Heavy Lancers,Elite Heavy Ranged Cavalry,12000 Gold,4 Workers,120 Food,950 Levy,,16500 Gold,,6 Food,16 Gold,,30,2,11,115,22,1.35,1.3,20,23,130,17,,14,1.5,20,HeavybowMongolSalvo,,6.1,1.6,1.8,0.8,325,1,,0.15
+Sipahi_Special,HeavyCavalry,Sipahi Cavalry,Elite Heavy Cavalry,9350 Gold,3 Workers,80 Food,750 Levy,,13200 Gold,,4 Food,11 Gold,,30,2,6,160,26,,1.35,-60,28,140,19,,,1.5,,,,5.5,1.5,1.7,0.775,275,1.4,,0.15
+Boyar_Special,HeavyCavalry,Boyar Cavalry,Elite Heavy Cavalry,8800 Gold,5 Workers,130 Food,800 Levy,,14300 Gold,,7 Food,14 Gold,,30,2,6,140,29,,1.35,-60,25,210,18,,,1.5,,,,5.75,1.5,1.7,0.8,300,1.2,,0
+Cataphract_Special,HeavyCavalry,Cataphracts,Elite Heavy Cavalry,10450 Gold,4 Workers,100 Food,825 Levy,,14300 Gold,,5 Food,12 Gold,,30,2,6,190,27,,1.35,-60,32,150,20,,,1.5,,,,5.1,1.5,1.7,0.7,250,1.6,,0.1
+Norman_Special,HeavyCavalry,Norman Cavalry,Elite Heavy Cavalry,7150 Gold,3 Workers,90 Food,800 Levy,,12100 Gold,,5 Food,10 Gold,,30,2,7,154,31,,1.15,5,22,200,19,,,1.25,,,,5.8,1.5,1.7,0.79,275,1.3,,0
+Ghulam_Cavalry_Special,HeavyCavalry,Ghulam Cavalry,Elite Heavy Cavalry,6600 Gold,2 Workers,70 Food,700 Levy,,11000 Gold,,3 Food,9 Gold,,30,2,6,133,27,,1.35,-60,26,110,16,,,1.5,,,,5.9,1.5,1.7,0.79,300,1,,0.2
+Pronoia_Special,HeavyCavalry,Pronoia Cavalry,Elite Heavy Cavalry,6600 Gold,4 Workers,80 Food,700 Levy,,11550 Gold,,4 Food,9 Gold,,30,2,7,147,29,,1.15,-45,21,130,18,,,1.25,,,,6,1.5,1.7,0.825,300,1.2,,0.2
+Feudal_Knight_Special,HeavyCavalry,Feudal Knights,Elite Heavy Cavalry,12100 Gold,6 Workers,120 Food,700 Levy,,12100 Gold,,6 Food,12 Gold,,30,2,7,196,28,,1.15,-45,22,120,20,,,1.25,,,,5.4,1.5,1.7,0.75,250,1.6,,0.25
+Templar_Special,HeavyCavalry,Templar Knight Cavalry,Elite Heavy Cavalry,13200 Gold,4 Workers,130 Food,950 Levy,,20000 Gold,,7 Food,18 Gold,,30,2,7,203,29,,1.15,-45,24,210,21,,,1.25,,,,5.25,1.5,1.7,0.725,225,1.7,,0
+Teutonic_Knight_Mounted_Special,HeavyCavalry,Teutonic Knight Cavalry,Elite Heavy Cavalry,11000 Gold,5 Workers,100 Food,900 Levy,,16500 Gold,,5 Food,15 Gold,,30,2,7,182,30,,1.15,-45,21,170,20,,,1.25,,,,5.5,1.5,1.7,0.75,250,1.5,,0.1
+FoodWagon,InventoryItem,Supply Wagons,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,
+AdditionalTroops,InventoryItem,Additional Troops,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,
+SiegeEquipment,InventoryItem,Siege Tower,Siege Equipment,1000 Gold,,,,,,10 Gold,,,,1,,7,5,10,,,,,,,,9,2,,RockSalvo,1,1.3,1,1,0.4,150,10,1000,0
+Catapult,SiegeEquipment,Catapult,,4500 Gold,,,,,,35 Gold,,,,,,30,150,1,100,,,,,,,40,,250,CatapultSalvo,1,0.9,1,1,0.35,,15,1300,
+Trebuchet,SiegeEquipment,Trebuchet,,10000 Gold,,,,,,45 Gold,,,,,,55,150,1,300,,,,,,,60,0,300,RockSalvo,1,0.6,1,1,0.31,,20,13000,
+Siege_Ram,SiegeEquipment,Battering Ram,,3000 Gold,,,,,,15 Gold,,,,,,25,200,5,100,,,,,,2,,1,,,,0.75,1,1,0.325,,20,70,
+Militia_CE,Militia,Peasants,,50 Gold,2 Workers,10 Food,null,,450 Gold,,1 Food,1 Gold,,30,1,,13,13,,,,4,30,,,,1,,,,3,1.8,2,0.725,250,0.5,,0.25
+Militia_Arab,Militia,Peasants,,40 Gold,2 Workers,10 Food,null,,450 Gold,,1 Food,1 Gold,,30,1,,10,12,,,,3,25,,,,1.25,,,,3.2,1.8,2,0.75,220,0.3,,0.35
+Militia_Nord,Militia,Nordic Peasants,,60 Gold,2 Workers,20 Food,null,,500 Gold,,1 Food,1 Gold,,30,1,,11,15,,,,5,35,,,,1,,,,3,1.8,2,0.725,260,0.5,,0.3
+Militia_Steppe,Militia,Steppe Peasants,,30 Gold,2 Workers,10 Food,null,,350 Gold,,1 Food,1 Gold,,30,1,2,10,8,,2,-20,2,20,,,,1.5,,,,3.1,1.8,2,0.75,240,0.3,,0.35
+AdvancedMilitia_CE,AdvancedMilitia,Militia,,150 Gold,2 Workers,10 Food,100 Levy,,700 Gold,,1 Food,1 Gold,,30,1,,28,25,,,,9,35,,,,1,,,,2.8,1.7,1.9,0.675,230,0.5,,0.2
+AdvancedMilitia_Arab,AdvancedMilitia,Desert Militia,,130 Gold,2 Workers,10 Food,100 Levy,,600 Gold,,1 Food,1 Gold,,30,1,,28,22,,,,7,35,,,,1.25,,,,2.8,1.7,1.9,0.69,210,0.6,,0.25
+AdvancedMilitia_Nord,AdvancedMilitia,Nordic Militia,,110 Gold,2 Workers,20 Food,100 Levy,,700 Gold,,2 Food,1 Gold,,30,1,,18,26,,,,10,40,,,,1,,,,2.9,1.8,2,0.71,240,0.4,,0.2
+AdvancedMilitia_Steppe,AdvancedMilitia,Steppe Militia,,80 Gold,2 Workers,10 Food,75 Levy,,500 Gold,,1 Food,1 Gold,,30,1,3,18,13,,2,-20,2,30,,,,1.5,,,,3,1.8,2,0.71,220,0.4,,0.3
+Light_Infantry_CE,Infantry,Light Infantry,,450 Gold,1 Workers,20 Food,200 Levy,,1000 Gold,,1 Food,1 Gold,,30,,,49,25,,,,8,70,,,,1.25,,,,2.5,1.7,1.9,0.625,200,1,,0.2
+Light_Infantry_Arab,Infantry,Desert Light Infantry,,380 Gold,1 Workers,10 Food,200 Levy,,1000 Gold,,1 Food,1 Gold,,30,,,35,25,,,,11,60,,,,1.25,,,,2.7,1.7,1.9,0.64,190,1,,0.25
+Light_Infantry_Steppe,Infantry,Steppe Warriors,,500 Gold,1 Workers,20 Food,250 Levy,,1250 Gold,,2 Food,2 Gold,,30,,5,60,26,,,,12,80,,,,1.25,,,,2.3,1.6,1.8,0.6,180,1,,0.2
+Light_Infantry_Slav,Infantry,Slavic Light Infantry,,400 Gold,1 Workers,10 Food,250 Levy,,900 Gold,,2 Food,1 Gold,,30,,7,49,24,,,,7,110,,,,1.25,,,,2.5,1.7,1.9,0.625,220,1,,0.1
+Axeman_Special,Infantry,Slavic Axemen,Infantry,500 Gold,1 Workers,30 Food,275 Levy,,1600 Gold,,2 Food,3 Gold,,30,,,32,32,,,,14,110,,,,1,,,,2.6,1.7,1.9,0.625,210,0.7,,0.1
+Light_Infantry_African,Infantry,African Light Infantry,,240 Gold,1 Workers,10 Food,125 Levy,,700 Gold,,1 Food,1 Gold,,30,,,17,23,,,,9,60,,,,1.25,,,,3,1.8,2,0.725,240,0.8,,0.3
+Light_Spearman_CE,Defense,Light Spearmen,,450 Gold,1 Workers,20 Food,225 Levy,,1250 Gold,,1 Food,2 Gold,,30,,,67,21,,2,-20,4,90,,,,1.5,,,,2.1,1.6,1.8,0.59,150,0.8,,0.2
+Light_Spearman_Arab,Defense,Desert Light Spearmen,,330 Gold,1 Workers,10 Food,175 Levy,,1000 Gold,,1 Food,2 Gold,,30,,,42,19,,2,-20,3,55,,,,1.5,,,,2.3,1.7,1.9,0.625,190,0.6,,0.3
+Light_Cavalry_CE,HorseCavalry,Light Cavalry,,1045 Gold,1 Workers,70 Food,380 Levy,,2450 Gold,,4 Food,5 Gold,,30,,,56,18,,1.4,-30,17,60,9,,,1.5,,,,8.25,1.7,1.9,1.03,475,0.7,,0.2
+Light_Cavalry_Arab,HorseCavalry,Desert Light Cavalry,,650 Gold,1 Workers,50 Food,250 Levy,,1550 Gold,,2 Food,3 Gold,,30,,,18,18,,1.4,-30,14,30,3,,,1.5,,,,9.25,1.8,2,1.2,550,0.3,,0.35
+Light_Cavalry_Steppe,HorseCavalry,Steppe Cavalry,,650 Gold,1 Workers,60 Food,280 Levy,,1650 Gold,,3 Food,4 Gold,,30,,5,25,20,,1.4,-30,16,50,5,,,1.5,,,,9,1.8,2,1.15,525,0.5,,0.25
+Light_Cavalry_African,HorseCavalry,African Cavalry,,550 Gold,1 Workers,30 Food,200 Levy,,950 Gold,,2 Food,2 Gold,,30,,,18,24,,1,-10,12,40,2,,,1.25,,,,10,1.8,2,1.3,575,0.3,,0.35
+Light_Archer_CE,Ranged,Bowmen,,200 Gold,1 Workers,10 Food,125 Levy,,775 Gold,,1 Food,1 Gold,,30,,,25,5,5,,30,1,15,,,,1.25,36,ArrowSalvo,,2.35,1.7,1.9,0.6,100,0.7,,0.25
+Light_Archer_Arab,Ranged,Desert Archers,,220 Gold,1 Workers,20 Food,150 Levy,,850 Gold,,1 Food,1 Gold,,30,,,8,6,4.2,,30,3,8,,,,1.25,48,ArrowSalvo,,2.45,1.8,2,0.625,125,0.5,,0.35
+Light_Archer_Steppe,Ranged,Steppe Archers,,200 Gold,1 Workers,20 Food,150 Levy,,820 Gold,,2 Food,1 Gold,,30,,5,18,4,5.8,,30,1,10,,,,1.25,36,ArrowSalvo,,2.45,1.8,2,0.625,125,0.6,,0.3
+Light_Archer_Slav,Ranged,Slavic Bowmen,,180 Gold,1 Workers,20 Food,125 Levy,,775 Gold,,1 Food,1 Gold,,30,,6,7,4,5.7,,30,1,30,,,,1.25,36,ArrowSalvo,,2.45,1.8,2,0.625,150,0.4,,0.2
+Heavy_Swordman_CE,HeavyInfantry,Heavy Infantry,,2500 Gold,1 Workers,50 Food,500 Levy,,4000 Gold,,2 Food,6 Gold,,30,,,120,29,,,-10,12,120,,,,1.25,,,,1.8,1.5,1.7,0.575,125,1.3,,0.2
+Heavy_Swordman_Arab,HeavyInfantry,Desert Heavy Swordsmen,,2800 Gold,2 Workers,60 Food,575 Levy,,4800 Gold,,3 Food,7 Gold,,30,,,130,30,,,-10,14,100,,,,1.25,,,,1.9,1.5,1.7,0.55,90,1.4,,0.2
+Heavy_Spearman_CE,HeavyDefense,Heavy Spearmen,,2200 Gold,1 Workers,50 Food,450 Levy,,3600 Gold,,2 Food,5 Gold,,30,,,110,25,,2,-35,6,150,,,,1.5,,,,1.6,1.5,1.7,0.5,80,1.2,,0.2
+Heavy_Spearman_Arab,HeavyDefense,Desert Heavy Spearmen,,1500 Gold,1 Workers,40 Food,425 Levy,,3400 Gold,,2 Food,3 Gold,,30,,,90,22,,2,-30,7,130,,,,1.5,,,,1.7,1.6,1.8,0.525,90,1.1,,0.25
+Heavy_Cavalry_CE,HeavyCavalry,Heavy Cavalry,,4300 Gold,2 Workers,80 Food,600 Levy,,6500 Gold,,4 Food,8 Gold,,30,,,100,26,,1.3,-60,19,80,13,,,1.5,,,,7.25,1.6,1.8,0.875,375,1.2,,0.2
+Heavy_Cavalry_Arab,HeavyCavalry,Desert Heavy Cavalry,,4750 Gold,3 Workers,80 Food,700 Levy,,8250 Gold,,4 Food,8 Gold,,30,,,120,27,,1.3,-60,23,120,15,,,1.5,,,,6.15,1.5,1.7,0.85,300,1.3,,0.15
+Heavy_Cavalry_Slav,HeavyCavalry,Slavic Heavy Cavalry,,3850 Gold,2 Workers,70 Food,650 Levy,,6050 Gold,,4 Food,7 Gold,,30,,8,90,29,,1.1,-40,17,160,12,,,1.25,,,,7.75,1.7,1.9,0.925,400,1.1,,0.1
+Heavy_Archer_CE,HeavyRanged,Heavy Archers,,2000 Gold,1 Workers,40 Food,400 Levy,,3200 Gold,,2 Food,4 Gold,,30,,,80,18,1.8,1.15,50,3,80,,,14,1.25,48,ArrowSalvo,,1.6,1.7,1.9,0.575,70,1,,0.2
+Heavy_Archer_Arab,HeavyRanged,Heavy Archers,,2300 Gold,2 Workers,30 Food,425 Levy,,3500 Gold,,2 Food,5 Gold,,30,,,53,22,1.5,1.15,50,5,90,,,13,1.25,36,ArrowSalvo,,1.7,1.8,2,0.59,90,1,,0.15
+Marshal_CE,Noble,Noblemen Cavalry,,,,,,,,,,,,30,2,6,200,27,,1.15,-50,17,120,16,,,1.25,,,,5.2,1.5,1.7,0.825,300,1.3,,0
+Marshal_Arab,Noble,Noblemen Cavalry,,,,,,,,,,,,30,2,6,84,30,,1.15,-40,14,110,10,,,1.25,,,,8.25,1.7,1.9,1.05,425,0.7,,0
+Marshal_Nord,Noble,Noblemen Cavalry,,,,,,,,,,,,30,2,6,160,29,,1.15,-50,18,140,14,,,1.25,,,,6.25,1.5,1.7,0.875,300,1.1,,0
+Marshal_Steppe,Noble,Noblemen Cavalry,,,,,,,,,,,,30,2,5,105,22,,1.35,-65,20,110,11,,,1.5,,,,7.75,1.6,1.8,0.975,375,0.8,,0
+Marshal_African,Noble,Noblemen Cavalry,,,,,,,,,,,,30,2,5,170,33,,1.35,-65,21,100,12,,,1.5,,,,7.25,1.5,1.7,0.925,350,0.9,,0
+Marshal_Guard_CE,Noble,,,,,,,,,,,,,30,2,6,200,27,,1.15,-50,17,120,16,,,1.25,,,,5.2,1.5,1.7,0.825,300,1.3,,0
+Marshal_Guard_Arab,Noble,,,,,,,,,,,,,30,2,6,84,30,,1.15,-40,14,110,10,,,1.25,,,,8.25,1.7,1.9,1.05,425,0.7,,0
+Marshal_Guard_Nord,Noble,,,,,,,,,,,,,30,2,6,160,29,,1.15,-50,18,140,14,,,1.25,,,,6.25,1.5,1.7,0.875,300,1.1,,0
+Marshal_Guard_Steppe,Noble,,,,,,,,,,,,,30,2,5,105,22,,1.35,-65,20,110,11,,,1.5,,,,7.75,1.6,1.8,0.975,375,0.8,,0
+Marshal_Guard_African,Noble,,,,,,,,,,,,,30,2,5,170,33,,1.35,-65,21,100,12,,,1.5,,,,7.25,1.5,1.7,0.925,350,0.9,,0
+Marshal_Rebel_CE,Noble,Rebel Leader,,,,,,,,,,,,30,2,6,180,28,,1.15,-50,17,120,16,,,1.25,,,,5.4,1.5,1.7,0.85,300,1.3,,0
+Marshal_Rebel_Arab,Noble,Rebel Leader,,,,,,,,,,,,30,2,6,75,31,,1.15,-40,14,110,10,,,1.25,,,,8.5,1.7,1.9,1.075,425,0.7,,0
+Marshal_Rebel_Nord,Noble,Rebel Leader,,,,,,,,,,,,30,2,6,150,30,,1.15,-50,18,140,14,,,1.25,,,,6.5,1.5,1.7,0.9,300,1.1,,0
+Marshal_Rebel_Steppe,Noble,Rebel Leader,,,,,,,,,,,,30,2,5,95,23,,1.35,-65,20,110,11,,,1.5,,,,8,1.6,1.8,1,375,0.8,,0
+Marshal_Rebel_African,Noble,Rebel Leader,,,,,,,,,,,,30,2,5,115,23,,1.35,-65,22,100,12,,,1.5,,,,7.75,1.5,1.7,0.925,350,0.9,,0
+Marshal_Guard_Rebel_CE,Noble,,,,,,,,,,,,,30,2,6,180,28,,1.15,-50,17,120,16,,,1.25,,,,5.4,1.5,1.7,0.85,300,1.3,,0
+Marshal_Guard_Rebel_Arab,Noble,,,,,,,,,,,,,30,2,6,75,31,,1.15,-40,14,110,10,,,1.25,,,,8.5,1.7,1.9,1.075,425,0.7,,0
+Marshal_Guard_Rebel_Nord,Noble,,,,,,,,,,,,,30,2,6,150,30,,1.15,-50,18,140,14,,,1.25,,,,6.5,1.5,1.7,0.9,300,1.1,,0
+Marshal_Guard_Rebel_Steppe,Noble,,,,,,,,,,,,,30,2,5,95,23,,1.35,-65,20,110,11,,,1.5,,,,8,1.6,1.8,1,375,0.8,,0
+Marshal_Guard_Rebel_African,Noble,,,,,,,,,,,,,30,2,5,115,23,,1.35,-65,22,100,12,,,1.5,,,,7.75,1.5,1.7,0.925,350,0.9,,0
+TownGuard_CE,TownGuard,Town Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+EliteGuard_CE,EliteGuard,Senior Town Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+RoyalGuard_CE,RoyalGuard,Royal Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+TownGuard_Arab,TownGuard,Town Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+EliteGuard_Arab,EliteGuard,Senior Town Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+RoyalGuard_Arab,RoyalGuard,Royal Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+TownGuard_Nord,TownGuard,Town Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+EliteGuard_Nord,EliteGuard,Senior Town Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+RoyalGuard_Nord,RoyalGuard,Royal Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+TownGuard_Steppe,TownGuard,Town Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+EliteGuard_Steppe,EliteGuard,Senior Town Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+RoyalGuard_Steppe,RoyalGuard,Royal Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+TownGuard_African,TownGuard,Town Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+EliteGuard_African,EliteGuard,Senior Town Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+RoyalGuard_African,RoyalGuard,Royal Guards,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,
+TestUnit,Militia_CE,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,3,1.45,,,,,,0
+TrebuchetPacked,Trebuchet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4,,,,,7,,
+SurrenderUnit,Militia_CE,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,5,1,1,,,,,
+SurrenderUnitAfrican,SurrenderUnit,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,5,1,1,,,,,
